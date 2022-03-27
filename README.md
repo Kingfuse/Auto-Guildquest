@@ -1,3 +1,5 @@
+ Auto-Guildquest
+
 Auto-Vanguard / Guild-Quest / Guadian Legion / Daily cradit
 
 Commands | infos
