@@ -12,3 +12,4 @@ VGLog | for enabled/disabled VanguardQuest-Logger
 GL | for enabled/disabled Auto claim box in Gardian legion
 DL | for enabled/disabled Auto claim Daily cradit 
 
+at ur owned risk Notfuse#8963
