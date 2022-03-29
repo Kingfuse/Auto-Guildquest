@@ -81,11 +81,6 @@ module.exports = function AutoGuildquest(mod) {
 		if(daily < 16) mod.command.message(niceName + 'Daily Vanguard Requests completed: ' + daily)
 		else mod.command.message(niceName + 'You have completed all 16 Vanguard Requests today.')
 	}
-	function completeGuardian() {
-		mod.send('C_REQUEST_FIELD_POINT_REWARD', 1, {})
-		setTimeout(() => {
-		mod.send('C_REQUEST_ONGOING_FIELD_EVENT_LIST', 1, {})
-	}, 2000+ Math.random()*500)
 };
 	function dailycredit() {
 		if (mod.settings.Daily) {
