@@ -55,7 +55,7 @@ module.exports = function AutoGuildquest(mod) {
 	})
 	mod.hook('S_FIELD_POINT_INFO', 2, (event) => {       
 		if(entered && event.cleared != clr && event.cleared - 1 > event.claimed){
-			mod.toClient('S_CHAT', 3, {
+			mod.toClient('S_CHAT', 4, {
 			channel: 21,
 			gm: 1,
 			name: 'Guardian Mission',
