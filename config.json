@@ -5,7 +5,7 @@
         "GQuest": true,
         "VLog": false,
         "GQuestLog": false,
-        "Guardian": true,
+        "Guardian": false,
         "Daily": true,
         "battleground": [
             102,
